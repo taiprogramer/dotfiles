@@ -120,3 +120,5 @@ fi
 
 # gpg passphrase ask
 export GPG_TTY=$(tty)
+# custom prompt
+export PS1="\n\[\033[01;34m\]\w\n\[\033[01;32m\][taiprogramer.xyz]> "
