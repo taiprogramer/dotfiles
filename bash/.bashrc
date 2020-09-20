@@ -122,3 +122,11 @@ fi
 export GPG_TTY=$(tty)
 # custom prompt
 export PS1="\n\[\033[01;34m\]\w\n\[\033[01;32m\][taiprogramer.xyz]> "
+
+# [functions]
+
+function scrrec {
+    d=`date +"%H_%M_%d_%m_%Y"`
+    ffmpeg -f x11grab  -s 1366x768 -i :0.0 -r 25 -f pulse -ac 2 -i default -vcodec libx264 ~/Videos/ffmpeg_recored_$d.mkv
+}
+
