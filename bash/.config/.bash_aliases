@@ -21,3 +21,6 @@ alias projects="cd ~/Projects"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+# Security
+alias scrm="shred -uvz -n 5 "
