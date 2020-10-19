@@ -130,3 +130,7 @@ function scrrec {
     ffmpeg -f x11grab  -s 1366x768 -i :0.0 -r 25 -f pulse -ac 2 -i default -vcodec libx264 ~/Videos/ffmpeg_recored_$d.mkv
 }
 
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
