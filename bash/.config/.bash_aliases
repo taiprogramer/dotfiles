@@ -24,3 +24,4 @@ alias ....="cd ../../.."
 
 # Security
 alias scrm="shred -uvz -n 5 "
+alias ssuspend="slock & sleep 1 & sudo pm-suspend"
