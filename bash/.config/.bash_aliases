@@ -12,6 +12,8 @@ alias hclear="history -c && history -w"
 alias hshow="history"
 alias vi="nvim"
 alias cclip="xclip -sel clip"
+alias apps="~/Archived/apps.sh"
+alias backup="~/Archived/backup.sh"
 
 # Navigate
 alias documents="cd ~/Documents"
