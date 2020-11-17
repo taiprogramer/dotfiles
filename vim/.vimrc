@@ -13,6 +13,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'neoclide/coc.nvim'
 Plugin 'rhysd/vim-clang-format'
 Plugin '907th/vim-auto-save'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,4 +63,6 @@ set backspace=indent,eol,start	" Backspace behaviour
 set clipboard=unnamed
 set clipboard=unnamedplus
 let g:auto_save = 1  " enable AutoSave on Vim startup
+map <C-\> :NERDTreeToggle<CR>
+map <C-s> :w<CR>
 " ============== taiprogramer's settings ==============
