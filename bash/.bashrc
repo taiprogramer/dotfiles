@@ -126,7 +126,14 @@ export PS1="\n\[\033[01;34m\]\w\n\[\033[01;32m\][taiprogramer.xyz]> "
 # [functions]
 
 function scrrec {
+    VIDEO_FOLDER=`xdg-user-dir VIDEOS`
     d=`date +"%H_%M_%d_%m_%Y"`
-    ffmpeg -f x11grab  -s 1366x768 -i :0.0 -r 25 -f pulse -ac 2 -i default -vcodec libx264 ~/Videos/ffmpeg_recored_$d.mkv
+    ffmpeg -f x11grab  -s 1366x768 -i :0.0 -r 25 -f pulse -ac 2 -i default -vcodec libx264 $VIDEO_FOLDER/screen_recored_$d.mkv
+}
+
+function camrec {
+    VIDEO_FOLDER=`xdg-user-dir VIDEOS`
+    d=`date +"%H_%M_%d_%m_%Y"`
+    ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 $VIDEO_FOLDER/cam_recored_$d.mkv
 }
 
