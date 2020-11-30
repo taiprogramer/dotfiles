@@ -10,3 +10,7 @@ neofetch
 
 echo "If you really are taiprogramer, you already know what to do next."
 echo "If you are not, don't worry. Turn off this computer & go to taiprogramer.xyz to explore more about him."
+
+# >>> coursier install directory >>>
+export PATH="$PATH:/home/taiprogramer/.local/share/coursier/bin"
+# <<< coursier install directory <<<
