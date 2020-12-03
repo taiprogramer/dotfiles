@@ -14,3 +14,14 @@ echo "If you are not, don't worry. Turn off this computer & go to taiprogramer.x
 # >>> coursier install directory >>>
 export PATH="$PATH:/home/taiprogramer/.local/share/coursier/bin"
 # <<< coursier install directory <<<
+
+# >>> XDG Base Directory
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CACHE_HOME=$HOME/.cache
+export HISTFILE="$XDG_DATA_HOME"/bash/history
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
+export LESSHISTFILE=-
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+# <<< XDG Base Directory
