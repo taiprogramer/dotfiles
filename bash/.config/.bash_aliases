@@ -27,3 +27,7 @@ alias ....="cd ../../.."
 # Security
 alias scrm="shred -uvz -n 5 "
 alias ssuspend="slock & sleep 1 & sudo pm-suspend"
+
+# XDG Base Directory
+alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
+
