@@ -24,6 +24,7 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
 export LESSHISTFILE=-
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+<<<<<<< HEAD
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export VIMINIT="source $XDG_CONFIG_HOME/vim/vimrc"
 # <<< XDG Base Directory
