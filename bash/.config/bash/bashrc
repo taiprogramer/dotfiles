@@ -137,3 +137,7 @@ function camrec {
     ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 $VIDEO_FOLDER/cam_recored_$d.mkv
 }
 
+function camshow {
+    ffplay -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0
+}
+
