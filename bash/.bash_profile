@@ -28,3 +28,7 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export VIMINIT="source $XDG_CONFIG_HOME/vim/vimrc"
 # <<< XDG Base Directory
 
+# ============== Default program ==============
+export EDITOR="nvim"
+# ============== Default program ==============
+
