@@ -26,6 +26,7 @@ export LESSHISTFILE=-
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export VIMINIT="source $XDG_CONFIG_HOME/vim/vimrc"
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 # <<< XDG Base Directory
 
 # ============== Default program ==============
