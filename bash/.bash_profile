@@ -33,12 +33,15 @@ export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 # Android studio
 export ANDROID_HOME="$XDG_DATA_HOME"/Android
+export ANDROID_SDK_ROOT="$XDG_DATA_HOME"/Android
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 # Node/Npm
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 # <<< XDG Base Directory
 
 # ============== Default program ==============
