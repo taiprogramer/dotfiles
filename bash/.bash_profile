@@ -31,6 +31,12 @@ export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
 # Rust language
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
+# Android studio
+export ANDROID_HOME="$XDG_DATA_HOME"/Android
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 # <<< XDG Base Directory
 
 # ============== Default program ==============
