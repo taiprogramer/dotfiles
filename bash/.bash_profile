@@ -34,6 +34,10 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 # Android studio
 export ANDROID_HOME="$XDG_DATA_HOME"/Android
 export ANDROID_SDK_ROOT="$XDG_DATA_HOME"/Android
+export ANDROID_SDK_HOME="$XDG_CONFIG_HOME"/android
+export ANDROID_AVD_HOME="$XDG_DATA_HOME"/android/
+export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME"/android/
+export ADB_VENDOR_KEY="$XDG_CONFIG_HOME"/android
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
