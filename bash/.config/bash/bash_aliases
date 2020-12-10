@@ -16,10 +16,9 @@ alias apps="~/Archived/apps.sh"
 alias backup="~/Archived/backup.sh"
 
 # Navigate
-alias documents="cd ~/Documents"
-alias downloads="cd ~/Downloads"
-alias videos="cd ~/Videos"
-alias projects="cd ~/Projects"
+alias documents='cd `xdg-user-dir DOCUMENTS`'
+alias downloads='cd `xdg-user-dir DOWNLOAD`'
+alias videos='cd `xdg-user-dir VIDEOS`'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
