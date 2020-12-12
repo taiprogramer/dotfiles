@@ -29,5 +29,5 @@ alias ssuspend="slock & sleep 1 & sudo pm-suspend"
 
 # XDG Base Directory
 alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
-alias yarn="yarn --use-yarnrc $XDG_CONFIG_HOME/yarn/config"
+alias yarn="yarn --use-yarnrc $XDG_CONFIG_HOME/yarn/yarnrc"
 
