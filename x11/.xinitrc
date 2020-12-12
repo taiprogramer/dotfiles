@@ -9,5 +9,8 @@ done &
 /usr/lib/notification-daemon-1.0/notification-daemon &
 # -> now, can get & display message from notify-send
 
+# set wallpaper
+xwallpaper --stretch "$XDG_CONFIG_HOME"/wall.jpg
+
 exec dwm
 
