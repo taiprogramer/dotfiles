@@ -5,12 +5,6 @@ export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/10.0.0/c
 export PS1="\e[0;32m\w $ \e[0m"
 export PATH="$PATH:$HOME/.local/bin/"
 
-# show information of system
-neofetch
-
-echo "If you really are taiprogramer, you already know what to do next."
-echo "If you are not, don't worry. Turn off this computer & go to taiprogramer.xyz to explore more about him."
-
 # >>> coursier install directory >>>
 export PATH="$PATH:/home/taiprogramer/.local/share/coursier/bin"
 # <<< coursier install directory <<<
@@ -53,3 +47,5 @@ export EDITOR="nvim"
 # ============== Default program ==============
 
 source "/home/taiprogramer/.local/share/cargo/env"
+
+startx

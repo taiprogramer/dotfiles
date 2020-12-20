@@ -10,7 +10,10 @@ done &
 # -> now, can get & display message from notify-send
 
 # set wallpaper
-xwallpaper --stretch "$XDG_CONFIG_HOME"/wall.jpg
+for f in "$XDG_CONFIG_HOME"/wall/*; do
+    xwallpaper --center $f
+    sleep 1
+done &
 
 exec dwm
 
