@@ -10,10 +10,7 @@ done &
 # -> now, can get & display message from notify-send
 
 # set wallpaper
-for f in "$XDG_CONFIG_HOME"/wall/*; do
-    xwallpaper --center $f
-    sleep 1
-done &
+xwallpaper --maximize "$XDG_CONFIG_HOME/wall.png"
 
 exec dwm
 
