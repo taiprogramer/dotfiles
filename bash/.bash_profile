@@ -1,7 +1,7 @@
 export _JAVA_AWT_WM_NONREPARENTING=1 # for android studio ui on dwm
 export PATH="$PATH:$HOME/.config/npm-packages/bin"
 export PATH="$PATH:$HOME/.deno/bin"
-export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin"
+export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
 export PS1="\e[0;32m\w $ \e[0m"
 export PATH="$PATH:$HOME/.local/bin/"
 
