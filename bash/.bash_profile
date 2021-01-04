@@ -48,4 +48,3 @@ export EDITOR="nvim"
 
 source "/home/taiprogramer/.local/share/cargo/env"
 
-startx
