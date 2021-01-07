@@ -39,6 +39,7 @@ set backspace=indent,eol,start	" Backspace behaviour
 " ============== taiprogramer's settings ==============
 set clipboard=unnamed
 set clipboard=unnamedplus
+nnoremap <C-b>	:NERDTreeToggle<CR>
 " ============== taiprogramer's settings ==============
 " Transparent editing of gpg encrypted files.
 augroup encrypted
