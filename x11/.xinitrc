@@ -5,6 +5,9 @@ while true; do
     sleep 1
 done &
 
+# start authentication agent
+/usr/bin/lxqt-policykit-agent &
+
 # start notification-daemon
 /usr/lib/notification-daemon-1.0/notification-daemon &
 # -> now, can get & display message from notify-send
