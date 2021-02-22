@@ -1,8 +1,6 @@
 export _JAVA_AWT_WM_NONREPARENTING=1 # for android studio ui on dwm
 export PATH="$PATH:$HOME/.config/npm-packages/bin"
-export PATH="$PATH:$HOME/.deno/bin"
 export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
-export PS1="\e[0;32m\w $ \e[0m"
 export PATH="$PATH:$HOME/.local/bin/"
 
 # >>> coursier install directory >>>
@@ -21,10 +19,6 @@ export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export VIMINIT="source $XDG_CONFIG_HOME/vim/vimrc"
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
-export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
-# Rust language
-export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
 # Android studio
 export ANDROID_HOME="$XDG_DATA_HOME"/Android
 export ANDROID_SDK_ROOT="$XDG_DATA_HOME"/Android
@@ -43,8 +37,8 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 # <<< XDG Base Directory
 
 # ============== Default program ==============
-export EDITOR="nvim"
+export EDITOR="vi"
 # ============== Default program ==============
 
-source "/home/taiprogramer/.local/share/cargo/env"
+export PS1=''
 
