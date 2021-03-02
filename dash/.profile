@@ -2,6 +2,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1 # for android studio ui on dwm
 export PATH="$PATH:$HOME/.config/npm-packages/bin"
 export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
 export PATH="$PATH:$HOME/.local/bin/"
+export PATH="$PATH:$HOME/.deno/bin"
 
 # >>> coursier install directory >>>
 export PATH="$PATH:/home/taiprogramer/.local/share/coursier/bin"
@@ -39,8 +40,8 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 # <<< XDG Base Directory
 
 # ============== Default program ==============
-export EDITOR="vi"
+export EDITOR="nvim"
 # ============== Default program ==============
 
-export PS1=''
+export PS1='$ '
 
