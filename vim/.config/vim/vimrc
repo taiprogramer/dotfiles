@@ -41,6 +41,7 @@ set clipboard=unnamed
 set clipboard=unnamedplus
 nnoremap <C-\>	:NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeFocus<CR>
+autocmd BufNewFile,BufRead *.ejs setfiletype html
 " ============== taiprogramer's settings ==============
 " Transparent editing of gpg encrypted files.
 augroup encrypted
