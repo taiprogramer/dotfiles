@@ -12,5 +12,7 @@ done &
 /usr/lib/notification-daemon-1.0/notification-daemon &
 # -> now, can get & display message from notify-send
 
+xwallpaper --maximize "$XDG_CONFIG_HOME/wall.png"
+
 exec dwm
 
