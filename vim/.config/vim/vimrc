@@ -46,6 +46,7 @@ let NERDTreeShowLineNumbers=1
 " make sure relative line numbers are used
 autocmd FileType nerdtree setlocal relativenumber
 autocmd BufNewFile,BufRead *.ejs setfiletype html
+let g:ftplugin_sql_omni_key = '<C-j>'
 " ============== taiprogramer's settings ==============
 " Transparent editing of gpg encrypted files.
 augroup encrypted
