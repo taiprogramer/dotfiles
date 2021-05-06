@@ -46,3 +46,9 @@ export EDITOR="nvim"
 
 export PS1='$ '
 
+# Start GUI
+startx "$XDG_CONFIG_HOME/X11/xinitrc"
+
+
+
+
