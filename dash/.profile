@@ -2,7 +2,6 @@ export _JAVA_AWT_WM_NONREPARENTING=1 # for android studio ui on dwm
 export PATH="$PATH:$HOME/.config/npm-packages/bin"
 export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
 export PATH="$PATH:$HOME/.local/bin/"
-export PATH="$PATH:$HOME/.deno/bin"
 
 # >>> coursier install directory >>>
 export PATH="$PATH:/home/taiprogramer/.local/share/coursier/bin"
@@ -38,6 +37,8 @@ export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 # Node/Npm
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
+export DENO_INSTALL_ROOT="$XDG_DATA_HOME/deno"
+export PATH="$PATH:$DENO_INSTALL_ROOT/bin"
 # <<< XDG Base Directory
 
 # ============== Default program ==============
@@ -48,7 +49,3 @@ export PS1='$ '
 
 # Start GUI
 startx "$XDG_CONFIG_HOME/X11/xinitrc"
-
-
-
-
