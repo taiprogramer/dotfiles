@@ -1,19 +1,18 @@
 # Version Control System
-alias glog="git log"
-alias gs="git status"
+alias glog="git log --oneline"
+alias gs="git status -s" # short status
 alias gdiff="git diff"
 alias gd="git add ."
 alias gp="git push"
 alias gcommit="git commit -S"
-alias gcheckout="git checkout "
+alias gswitch="git switch"
 
 # Increase Productivity
 alias hclear="history -c && history -w"
 alias hshow="history"
-alias vi="nvim"
+alias e="nvim"
 alias cclip="xclip -sel clip"
-alias apps="~/Archived/apps.sh"
-alias backup="doas ~/Archived/backup.sh"
+alias backup="~/Archived/backup.sh"
 
 # Navigate
 alias documents='cd `xdg-user-dir DOCUMENTS`'
