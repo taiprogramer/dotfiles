@@ -15,9 +15,11 @@ alias cclip="xclip -sel clip"
 alias backup="~/Archived/backup.sh"
 
 # Navigate
-alias documents='cd `xdg-user-dir DOCUMENTS`'
-alias downloads='cd `xdg-user-dir DOWNLOAD`'
-alias videos='cd `xdg-user-dir VIDEOS`'
+alias doc='cd `xdg-user-dir DOCUMENTS`'
+alias dl='cd `xdg-user-dir DOWNLOAD`'
+alias vid='cd `xdg-user-dir VIDEOS`'
+alias mu='cd `xdg-user-dir MUSIC`'
+alias pic='cd `xdg-user-dir PICTURES`'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."

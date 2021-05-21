@@ -1,4 +1,3 @@
-
 # This file is written by xdg-user-dirs-update
 # If you want to change or add directories, just edit the line you're
 # interested in. All local changes will be retained on the next run.
@@ -6,11 +5,11 @@
 # homedir-relative path, or XDG_xxx_DIR="/yyy", where /yyy is an
 # absolute path. No other format is supported.
 # 
-XDG_DESKTOP_DIR="$HOME/Unsaved/Desktop"
-XDG_DOWNLOAD_DIR="$HOME/Unsaved/Downloads"
+XDG_DESKTOP_DIR="$HOME/"
+XDG_DOWNLOAD_DIR="$HOME/Unsaved/dl"
 XDG_TEMPLATES_DIR="$HOME/"
-XDG_PUBLICSHARE_DIR="$HOME/Unsaved/Public"
-XDG_DOCUMENTS_DIR="$HOME/Unsaved/Documents"
-XDG_MUSIC_DIR="$HOME/Unsaved/Music"
-XDG_PICTURES_DIR="$HOME/Unsaved/Pictures"
-XDG_VIDEOS_DIR="$HOME/Unsaved/Videos"
+XDG_PUBLICSHARE_DIR="$HOME/"
+XDG_DOCUMENTS_DIR="$HOME/Unsaved/doc"
+XDG_MUSIC_DIR="$HOME/Unsaved/mu"
+XDG_PICTURES_DIR="$HOME/Unsaved/pic"
+XDG_VIDEOS_DIR="$HOME/Unsaved/vid"
