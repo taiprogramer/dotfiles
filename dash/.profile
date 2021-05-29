@@ -48,5 +48,6 @@ export EDITOR="nvim"
 
 export PS1='$ '
 
-# Start GUI
-startx "$XDG_CONFIG_HOME/X11/xinitrc"
+# Ask for starting GUI
+read -p "Start GUI? (y/n) " ans
+test "$ans" = "y" && startx "$XDG_CONFIG_HOME/X11/xinit/xinitrc"

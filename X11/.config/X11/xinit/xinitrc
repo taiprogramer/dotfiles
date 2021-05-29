@@ -8,9 +8,8 @@ done &
 # start authentication agent
 /usr/bin/lxqt-policykit-agent &
 
-# start notification-daemon
-/usr/lib/notification-daemon-1.0/notification-daemon &
-# -> now, can get & display message from notify-send
+# start dunst notification daemon
+/usr/bin/dunst &
 
 xwallpaper --maximize "$XDG_CONFIG_HOME/wall.png"
 
