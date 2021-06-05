@@ -1,6 +1,4 @@
 export _JAVA_AWT_WM_NONREPARENTING=1 # for android studio ui on dwm
-export PATH="$PATH:$XDG_CONFIG_HOME/npm-packages/bin"
-export PATH="$PATH:$XDG_CONFIG_HOME/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
 export PATH="$PATH:$HOME/.local/bin/"
 
 # >>> coursier install directory >>>
@@ -40,6 +38,8 @@ export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export DENO_INSTALL_ROOT="$XDG_DATA_HOME/deno"
 export PATH="$PATH:$DENO_INSTALL_ROOT/bin"
+export PATH="$PATH:$XDG_CONFIG_HOME/npm-packages/bin"
+export PATH="$PATH:$XDG_CONFIG_HOME/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
 # <<< XDG Base Directory
 
 # ============== Default program ==============
@@ -50,4 +50,6 @@ export PS1='$ '
 
 # Ask for starting GUI
 read -p "Start GUI? (y/n) " ans
-test "$ans" = "y" && startx "$XDG_CONFIG_HOME/X11/xinit/xinitrc"
+
+test "$ans" = "y" && startx "$XDG_CONFIG_HOME"/X11/xinit/xinitrc
+
