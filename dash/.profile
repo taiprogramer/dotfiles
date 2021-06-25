@@ -15,7 +15,6 @@ export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
 export LESSHISTFILE=-
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
-export VIMINIT="source $XDG_CONFIG_HOME/vim/vimrc"
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export MYSQL_HISTFILE="$XDG_DATA_HOME"/mysql_history
