@@ -43,11 +43,9 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export PATH="$PATH:$CARGO_HOME"/bin
 # <<< XDG Base Directory
 
-# ============== Default program ==============
 export EDITOR="nvim"
-# ============== Default program ==============
-
 export PS1='$ '
+eval `ssh-agent`
 
 # Ask for starting GUI
 read -p "Start GUI? (y/n) " ans
