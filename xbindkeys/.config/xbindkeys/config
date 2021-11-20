@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: MIT
+
+"pactl set-sink-mute toggle"
+    m:0x0 + c:121
+    XF86AudioMute
+
+# Decrease vol by 5%
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    m:0x0 + c:122
+    XF86AudioLowerVolume
+
+# Increase vol by 5%
+"/usr/local/bin/audioup"
+    m:0x0 + c:123
+    XF86AudioRaiseVolume
+
+# Open nnn file explorer in st
+"st nnn"
+    m:0x40 + c:26
+    Mod4 + e

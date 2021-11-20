@@ -20,5 +20,8 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 fcitx &
 
+# xbindkeys for keyboard shortcuts
+xbindkeys --file "$XDG_CONFIG_HOME"/xbindkeys/config &
+
 exec dwm
 
