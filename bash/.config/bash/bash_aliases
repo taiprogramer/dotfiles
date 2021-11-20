@@ -1,3 +1,8 @@
+# SPDX-License-Identifier: MIT
+# List Directory
+alias la="ls -A"
+alias ll="ls -lA"
+
 # Version Control System
 alias glog="git log --oneline"
 alias gs="git status -s" # short status

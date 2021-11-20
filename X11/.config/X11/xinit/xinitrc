@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 # statusbar loop
 while true; do
     BAT=`cat /sys/class/power_supply/BAT0/capacity`

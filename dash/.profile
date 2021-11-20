@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 export _JAVA_AWT_WM_NONREPARENTING=1 # for android studio ui on dwm
 export PATH="$PATH:$HOME/.local/bin/"
 
