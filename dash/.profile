@@ -41,6 +41,7 @@ export PATH="$PATH:$DENO_INSTALL_ROOT/bin"
 export PATH="$PATH:$XDG_CONFIG_HOME/npm-packages/bin"
 export PATH="$PATH:$XDG_CONFIG_HOME/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin"
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export PATH="$PATH:$CARGO_HOME"/bin
 # <<< XDG Base Directory
 
