@@ -43,6 +43,7 @@ export PATH="$PATH:$XDG_CONFIG_HOME/coc/extensions/coc-clangd-data/install/11.0.
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export PATH="$PATH:$CARGO_HOME"/bin
+export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
 # <<< XDG Base Directory
 
 export EDITOR="nvim"
