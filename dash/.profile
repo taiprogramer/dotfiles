@@ -44,6 +44,7 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export PATH="$PATH:$CARGO_HOME"/bin
 export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
+export GOPATH="$XDG_DATA_HOME"/go
 # <<< XDG Base Directory
 
 export EDITOR="nvim"
