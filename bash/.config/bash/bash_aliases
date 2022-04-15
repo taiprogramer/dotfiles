@@ -15,7 +15,7 @@ alias gswitch="git switch"
 # Increase Productivity
 alias hclear="history -c && history -w"
 alias hshow="history"
-alias e="nvim"
+alias e="vim"
 alias cclip="xclip -sel clip"
 alias backup="~/Archived/backup.sh"
 

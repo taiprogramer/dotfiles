@@ -16,6 +16,4 @@ set undolevels=1000
 set cc=80 " set colorcolumnn=80
 set clipboard=unnamed
 set clipboard=unnamedplus
-nnoremap <C-\>	:NERDTreeToggle<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
-let g:ftplugin_sql_omni_key = '<C-j>'
+syntax on
