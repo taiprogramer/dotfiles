@@ -47,6 +47,7 @@ export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
 export GOPATH="$XDG_DATA_HOME"/go
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 # <<< XDG Base Directory
+export PATH="$PATH:$GOPATH/bin"
 
 export EDITOR="vim"
 export PS1='$ '
