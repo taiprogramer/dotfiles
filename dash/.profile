@@ -22,7 +22,7 @@ export MYSQL_HISTFILE="$XDG_DATA_HOME"/mysql_history
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
 
 # Android studio
-export ANDROID_HOME="$XDG_DATA_HOME"/Android
+export ANDROID_HOME="$XDG_DATA_HOME"/Android/Sdk
 export ANDROID_SDK_ROOT="$XDG_DATA_HOME"/Android
 export ANDROID_SDK_HOME="$XDG_CONFIG_HOME"/android
 export ANDROID_AVD_HOME="$XDG_DATA_HOME"/android/
