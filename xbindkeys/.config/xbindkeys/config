@@ -18,3 +18,9 @@
 "st nnn"
     m:0x40 + c:26
     Mod4 + e
+
+# Lock the screen
+"/usr/bin/slock"
+    m:0xc + c:46
+    Control+Alt + l
+
