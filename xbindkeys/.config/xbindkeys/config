@@ -8,11 +8,17 @@
 "pactl set-sink-volume @DEFAULT_SINK@ -5%"
     m:0x0 + c:122
     XF86AudioLowerVolume
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    m:0xc + c:116
+    Control+Alt + Down
 
 # Increase vol by 5%
 "/usr/local/bin/audioup"
     m:0x0 + c:123
     XF86AudioRaiseVolume
+"/usr/local/bin/audioup"
+    m:0xc + c:111
+        Control+Alt + Up
 
 # Open nnn file explorer in st
 "st nnn"
@@ -23,4 +29,5 @@
 "/usr/bin/slock"
     m:0xc + c:46
     Control+Alt + l
+
 
